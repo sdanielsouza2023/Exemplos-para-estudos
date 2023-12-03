@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Formulário</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="text" id="title">
+         Formulário de inscrição
+      </div>
+      <p id="step-text">Passo # de # - ###</p>
+      <p id="step-description"></p>
+      <div class="step one">
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required id="nome">
+               <div class="underline"></div>
+               <label for="">Nome *</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="sobrenome">
+               <div class="underline"></div>
+               <label for="">Sobrenome *</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required id="email">
+               <div class="underline"></div>
+               <label for="">Email *</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="dataNascimento">
+               <div class="underline"></div>
+               <label for="">Data de Nascimento *</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data textarea">
+               <textarea rows="8" cols="80" required id="minibio"></textarea>
+               <br />
+               <div class="underline"></div>
+               <label for="">Uma breve descrição sua</label>
+               <br />
+            </div>
+         </div>
+         <div class="form-row submit-btn">
+            <div class="input-data">
+               <div id="containerBtnFormOne" class="inner disabled"></div>
+               <input id="btnFormOne" type="submit" value="Continuar" class="disabled">
+            </div>
+         </div>
+      </div>
+      <div class="step two">
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required id="endereco">
+               <div class="underline"></div>
+               <label for="">Endereço *</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required id="complemento">
+               <div class="underline"></div>
+               <label for="">Complemento</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required id="cidade">
+               <div class="underline"></div>
+               <label for="">Cidade *</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required id="cep">
+               <div class="underline"></div>
+               <label for="">CEP *</label>
+            </div>
+         </div>
+         <div class="form-row submit-btn">
+            <div class="input-data">
+               <div id="containerBtnFormTwo" class="inner disabled"></div>
+               <input id="btnFormTwo" type="submit" value="Continuar" class="disabled">
+            </div>
+         </div>
+      </div>
+      <div class="step three">
+         <div class="form-row">
+            <div class="input-data textarea">
+               <textarea rows="8" cols="80" required id="habilidades"></textarea>
+               <br />
+               <div class="underline"></div>
+               <label for="">Principais habilidades *</label>
+               <br />
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data textarea">
+               <textarea rows="8" cols="80" required id="pontosForte"></textarea>
+               <br />
+               <div class="underline"></div>
+               <label for="">Pontos fortes *</label>
+               <br />
+            </div>
+         </div>
+         <div class="form-row submit-btn">
+            <div class="input-data">
+               <div id="containerBtnFormThree" class="inner disabled"></div>
+               <input id="btnFormThree" type="submit" value="Concluir" class="disabled">
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
