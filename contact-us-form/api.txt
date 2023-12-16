@@ -1,0 +1,4 @@
+ddd6be97248af3f47885dd899c839b24
+
+
+curl 'https://api.trello.com/1/members/me/boards?key=ddd6be97248af3f47885dd899c839b24&token=ATTA9e6af50ab073da78c8e6e20d730fc441f973fca486319fa9249ccc9f0cc618910A4ACAE2
